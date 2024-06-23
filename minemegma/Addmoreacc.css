@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    list-style: none;
+    border: none;
+    outline: none;
+    scroll-behavior: none;
+    font-family: Montserrat;
+}
+
+body{
+    display: grid;
+    place-content: center;
+}
+
+.crosss{
+    width: 44.58px;
+    height: 44.58px;
+    margin-top: 19px;
+    margin-left: 1013px;
+
+}
+.cross img{
+    width: 17.69px;
+    height: 18.4px;
+    margin-top: 31.74px;
+    margin-left: 526.45px;
+}
+
+p{
+    width: 500px;
+    height: 24px;
+    margin-top: 80px;
+    margin-left: 150px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #010101;
+}
+
+.add{
+    width: 122px;
+    height: 50px;
+    margin-top: 411px;
+    margin-left: 107px;
+    border-radius: 10px;
+    background-color: linear-gradient(102.39deg, #00C785 0%, #EFB404 120.25%);
+    top: 429px;
+    left: 149px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.addm{
+    width: 157px;
+    height: 50px;
+    margin-top: 411px;
+    margin-left: 239px;
+    border-radius: 10px;
+    background: linear-gradient(102.39deg, #EFB404 0%, #EFB404 120.25%);
+    top: 429px;
+    left: 149px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cancel{
+    width: 122px;
+    height: 50px;
+    margin-top: 411px;
+    margin-left: 404px;
+    border-radius: 10px;
+    background-color: #FF373F;
+    top: 429px;
+    left: 149px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.inp{
+    width: 480px;
+    position: absolute;
+}
+
+.label{
+    width: 105px;
+    height: 18px;
+    top: 10px;
+    left: 14px;    
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: #010101;
+}
+
+.float{
+    width: 480px;
+    height: 66px;
+    margin-top: 50px;
+    margin-left: 72px;    
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 0.8rem;
+}

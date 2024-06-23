@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+    background-image: url("dashback.jpg");
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    min-height: 1000px;
+}
+
+.minemegma{
+    width: 240px;
+    height: 138px;
+    margin-top: 35px;
+    margin-left: 50px;
+    border-radius: 31px 0px 0px 0px;
+    background-color: #FFFFFF;
+}
+
+.mine{
+    width: 106px;
+    height: 88.16px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.lbox{
+    width: 256px;
+    height: 800px;
+    margin-top: 10px;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+    border-radius: 4px 4px 50px 4px;
+    /* background-color: #00C785; */
+    background: linear-gradient(45deg,#EFB404, #00C785);
+}
+
+.button{
+    width: 242px;
+    height: 37px;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 11px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    word-spacing: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.nosepbox{
+    width: 242px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 11px;
+    opacity: 0.1px;
+    color: #FFFFFF;
+    border: 1px solid black;
+    /* box-shadow: 1px 1px 1px 0.5px #00C785; */
+}
+
+ul{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.comporadmin{
+    width: 1032px;
+    height: 750px;
+    margin-top: -700px;
+    margin-left: 292px;
+    border-radius: 10px;
+    /* border: 1px solid  black; */
+}
+
+.op{
+    width: 29px;
+    height: 19px;
+    margin-top: 20px;
+    margin-left: 29px;    
+}
+
+span{
+    width: 29px;
+    height: 19px;
+    margin-top: 20px;
+    margin-left: 29px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nav{
+    width: 990px;
+    height: 80px;
+    margin-top: -670px;
+    margin-left: 321px;
+    background-color: #F7F7F7;
+    border: 1px solid #F7F7F7;
+}
+
+.sch{
+    width: 413px;
+    height: 36px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 5px;    
+}
+
+.clear{
+    width: 250px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 30px;
+    border-radius: 5px;    
+}
+
+.plus{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 150px ;
+    align-items: center;
+}
+
+table{
+    /* width: 200px; */
+    margin-top: -40px;
+    /* width: ; */
+}
+
+td, th {
+    text-align: center;
+    /* padding: 8px; */
+    margin-left: 300px;
+    /* gap: 200px; */
+    /* column-gap: 40px; */
+    /* padding: 60px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    row-gap: 10px;
+    margin-left: 1000px;
+    /* padding: 0px; */
+}
+
+.tables{
+    margin-left: 400px;
+    padding: 30px;
+    /* column-gap: 100px; */
+}
+
+hr{
+    width: 1000px;
+    /* margin-top: 300px; */
+    border: 2px solid #010101;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .tables {
+        margin-left: 0; /* Remove left margin for small screens */
+        padding: 10px; /* Reduce padding for small screens */
+    }
+
+    th, td {
+        padding: 5px; /* Reduce padding for small screens */
+    }
+
+    .icons {
+        margin-right: 5px; /* Reduce spacing between icon and text */
+    }
+}
+/* 
+.icons td{
+    display: block;
+    justify-content: space-between;
+} */
+.icons{
+    width: 39px;
+    height: 36px;
+    position: absolute;
+    margin-left: -50px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 100px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 100px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .active{
+    background-color: #00C785;
+    border-radius: 4px;
+    width: 55px;
+    height: 20px;
+    color: #FFFFFF  ;
+  }
+
+  .inactive{
+    border-radius: 4px;
+    width: 65px;
+    height: 20px;
+  }
+
+  td{
+    padding-right: 20px; /* Add space to the right of the cell content */
+    vertical-align: middle;
+  }
+
+  

@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    list-style: none;
+    border: none;
+    outline: none;
+    scroll-behavior: none;
+}
+
+/* .firstpg{
+    background-image: url("ss.jpg");
+    background-size: cover;
+    background-position: center;
+} */
+
+.first{
+    background-image: url("Group\ 3246\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    min-height: 1000px;
+    max-width: 100vw;
+}
+img{
+    width: 164.72px;
+    height: 137px;
+    margin-top: 71px;
+    margin-left: 947px;
+}
+
+.signin h1{
+    width: 256px;
+    height: 43px;
+    margin-top: 100px;
+    margin-left: 900px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.admin{
+    width: 123px;
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 966px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.signin p{
+    width: 257px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 900px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.email{
+    width: 378px;
+    height: 58px;
+    margin-top: 10px;
+    margin-left: 840px;
+    border-radius: 5px;
+    border: 1px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid #010101;
+    color: #010101;
+}
+
+.reqotp{
+    width: 379px;
+    height: 61px;
+    margin-top: 10px;
+    margin-left: 839px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.secondpg{
+    width: auto;
+    height: auto;
+}
+
+.secp{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 269px;
+    height: 17px;
+    margin-top: 10px;
+    margin-left: 894px;
+}
+
+.otp .box{
+    width: 81px;
+    height: 58px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.otp{
+    margin-left: 839px;
+}
+
+@media only screen and(max-width:500px){
+    
+}
